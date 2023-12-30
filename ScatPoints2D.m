@@ -1,4 +1,4 @@
-function [X,XI,XB,Xb,Xt,Xl,Xr] =  PointsInSquare(a,b,c,d,h,ptype)
+function [X,XI,XB,Xb,Xt,Xl,Xr] =  ScatPoints2D(a,b,c,d,h,ptype)
 % This function produces grid or Halton points on square [a,b]x[c,d]
 % Inputs:
 %   a, b, c, d: the lengths of square sides
