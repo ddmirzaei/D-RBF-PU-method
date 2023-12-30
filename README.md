@@ -1,4 +1,4 @@
-# D-RBF-PU-method for solving an elliptic PDE
+# A MATLAB code for D-RBF-PU method for solving an elliptic PDE
 
     By: Davoud Mirzaei, Uppsala University, Sweden 
 
