@@ -6,7 +6,7 @@
 
 This file contains the Matlab code for the D-RBF-PU method of
  
-"D. Mirzaei, The Direct Radial Basis Function Partition of Unity (D-RBF-PU) Method for Solving PDEs, SIAM J. Sci. Comput. (2021)"
+`D. Mirzaei, The Direct Radial Basis Function Partition of Unity (D-RBF-PU) Method for Solving PDEs, SIAM J. Sci. Comput. (2021)`
 
 ------------
 
@@ -26,5 +26,7 @@ Some points:
 - The code addresses the elliptic PDE \( -\Delta u + u = f \) with both Dirichlet and Neumann boundary conditions. Nonetheless, users can adapt it for other types of PDEs with minimal modifications to the StartRun.m function.  
 
 - Compared to the results of the paper, the present code assigns patch radii to maintain a constant number of points within each patch.
+
+- Two types of PU weights (smooth and discontinuous) which are disscussed in the paper (the first and the third ones) are implemented in the code.
 
 ------------
