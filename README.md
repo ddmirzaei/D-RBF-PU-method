@@ -23,7 +23,7 @@ Some points:
 
 - The RBF used in the code is a polyharmonic spline kernel, leveraging the scalability property inherent to this kernel type. Nevertheless, users have the flexibility to incorporate alternative kernels into the Frbf.m function.
 
-- The code addresses the elliptic PDE \(-\Delta u + u = f\) with both Dirichlet and Neumann boundary conditions. Nonetheless, users can adapt it for other types of PDEs with minimal modifications to the StartRun.m function.  
+- The code addresses the elliptic PDE \( -\Delta u + u = f \) with both Dirichlet and Neumann boundary conditions. Nonetheless, users can adapt it for other types of PDEs with minimal modifications to the StartRun.m function.  
 
 - Compared to the results of the paper, the present code assigns patch radii to maintain a constant number of points within each patch.
 
